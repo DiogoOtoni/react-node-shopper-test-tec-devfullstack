@@ -1,0 +1,14 @@
+
+.container-buttons{
+    margin: 0.3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

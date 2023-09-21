@@ -1,0 +1,37 @@
+.container-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+
+
+
+}
+
+.products {
+    border: 1px solid grey;
+    margin: .3rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    max-width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.erros-msg{
+    color:red;
+}
+
+.infos-product{
+    font-size: 14px;
+}
+.price {
+    font-weight: bold;
+    color: #1EB681;
+    font-size: 18px;
+}

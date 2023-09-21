@@ -1,0 +1,20 @@
+.container-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.erros-msg{
+    color:red;
+}
+
+.infos-product{
+    font-size: 14px;
+}
+.price {
+    font-weight: bold;
+    color: #1EB681;
+    font-size: 18px;
+}
