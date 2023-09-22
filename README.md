@@ -25,14 +25,15 @@
 ```bash
     npm install
 ```
-- Para execução do servidor, execute no terminal:
+- Para execução da aplicação, execute no terminal:
 ```bash
     npm run dev
 ```
 
 ## Descrição e Cenário
 
-##### CENÁRIO
+### CENÁRIO
+---
 Em qualquer empresa de e-commerce é essencial que os usuários possam atualizar os preços de suas lojas para se manterem competitivos e manterem seus preços alinhados com os custos de operação. Essa tarefa parece simples, porém quando falamos de lojas com milhares de produtos, se torna essencial a existência de uma ferramenta que permita atualizar os produtos de forma massiva e com recursos adicionais para evitar erros que possam prejudicar o negócio.
 ---
 Você foi encarregado de desenvolver essa ferramenta e após uma série de reuniões com as áreas envolvidas, os seguintes requisitos foram levantados:
@@ -54,7 +55,7 @@ Estabeleceu-se a regra que, ao reajustar o preço de um pacote, o mesmo arquivo 
 
 A ferramenta deve impedir atualizações de preço que quebrem essa regra.
 
-##### REQUISITOS
+#### REQUISITOS
 Diante desse cenário, você deve construir um sistema com os seguintes requisitos:
 - O sistema deve ter um back end (node.js), contendo as todas as regras definidas e um front-end (React.js) que será utilizado pelo usuário da ferramenta
 - Você deve escrever seu código em Javascript ou TypeScript (preferencialmente)
